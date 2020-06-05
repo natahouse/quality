@@ -5,3 +5,13 @@ This document describes specific programming practices that help ensure your fin
 Please note that we won’t focus on specific coding practices here, the idea is to describe product requirements that should always be implemented when we are delivering, regardless of whether it was on the client’s requirement list or not.
 
 Let's create better software together!
+
+# Summary
+
+- [[Software Projects|Software Projects]]
+- [[Git|Git]]
+- [[API Design|API Design]]
+- [[Web Development|Web Development]]
+- [[Mobile Development/React Native|Mobile Development and React Native]]
+- [[CSS|CSS]]
+- [[React Components|React Components]]
