@@ -1,0 +1,23 @@
+name: Sync to Wiki
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  sync:
+    name: Sync to Wiki
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Set git config
+        run: |
+          git config --global user.email ${{ secrets.GIT_EMAIL }}
+          git config --global user.name ${{ secrets.GIT_USERNAME }}
+      - name: Add remote wiki path
+        run: git remote add wiki https://${{ github.token }}@github.com/${{ github.repository }}.wiki
+      - name: Push changes to remote wiki
+        run: git push wiki master -f
