@@ -4,7 +4,7 @@
 
 *@CONTRIBUTE examples*
 
-**Configure internationalization (in our case, usign i18n) in every project,even if there are no plans for translating it, because:**
+**Always consider using internationalization tools such as i18n, even if the app doesn't immediatly need to be multi language, because:**
 
 * Makes it easier to maintain the app’s text content
 * If the owner of the system decides they need a CMS, it will be easier to set up.
