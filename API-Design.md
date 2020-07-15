@@ -2,6 +2,8 @@
 
 **Every endpoint must be documented via Swagger. Ideally this will be done automatically, but depending on the project it might be necessary to do it manually. Documentation must be considered an integral part of API development.**
 
+**Every endpoint must return a json format result, the only exception is enpoints that returns 204 (no content).**
+
 **Validation. Every endpoint must be carefully validated, preferably mirroring the validation implemented on the front-end. Yes, validations should be duplicated and done both in front-end and back-end.**
 
 **Don’t be lazy when writing your validation. It is a very important part of the system and ensures database integrity. Write specific validation for stuff like:**
