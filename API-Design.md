@@ -12,4 +12,28 @@
 
 **Write and document your error handling carefully. Don’t just return error 500 any time something goes wrong, use the http status codes properly to inform your client of what exactly is going on. Even within the same status code, give proper error messages, for example: inform which fields are in the wrong format or missing in case of validation errors, inform whether it is the password or username/email that was wrong when getting an authentication error.**
 
-*@CONTRIBUTE example of proper error handling in an API*
+**An example of error handling when the user is not authorized to access some content:**
+
+![request-unauthorized](assets/request-unauthorized.png)
+
+**An example of error handling when the user tries to request an endpoint with wrong payload:**
+
+![request-badrequest](assets/request-badrequest.png)
+
+**An example of error handling when the user input an entity that doesn't exist:**
+
+![request-notfound](assets/request-notfound.png)
+
+**Some other good practices with http response status code:**
+
+**GET, PUT or PATCH: 200 OK**
+
+![request-ok](assets/request-ok.png)
+
+**POST: 201 Created**
+
+![request-created](assets/request-created.png)
+
+**DELETE: 204 No Content**
+
+![request-nocontent](assets/request-nocontent.png)
