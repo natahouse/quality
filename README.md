@@ -1,6 +1,6 @@
 # nata.house Software Quality Guidelines
 
-*@CONTRIBUTE add cool NH logo*
+![](assets/cool-logo.jpg "NH logo")
 
 This document describes specific programming practices that help ensure your final product will be easy and pleasant to use, both for end-users and other developers as well. The idea is to showcase some of these in order to remind our devs that every piece of software developed by nata.house must follow these practices, in order to make sure we are delivering the best possible product.
 
