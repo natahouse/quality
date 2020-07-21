@@ -7,7 +7,7 @@ Forms are one of the most annoying parts for users, so the more we can turn the 
 
 ### Focus on the next input and submit directly from the keyboard
 
-It is very annoying when we are filling out a form on the cell phone and when we finish a text field we have to scroll down and click on the next one. For this reason, keyboards have a key that can assist in this action. It is that key that is in the lower right corner of the keyboards. For her we can define a function (such as to focus on the next text field or send the form) and even a nomenclature that best suits the situation.
+It is very annoying when we are filling out a form on the cell phone and we need to scroll down and select the next input. For this reason, mobile keyboards have a return key to assist in this case. The return key is usually found at the lower right corner of the keyboards and we can pass a function to be executed when it's pressed, such as to focus on the next text field or submit the form. Some platforms even allow you to replace it's label for best suit your use case.
 
 The two attributes for React native's TextInput component that will help you with this are returnKeyType and onSubmitEditing.
 
