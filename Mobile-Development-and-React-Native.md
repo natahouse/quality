@@ -46,19 +46,19 @@ Now that you know how to make the return buttons have coherent names, it is nece
     const inputRefLastName = useRef(null)
     
     <TextInput
-	    id="firstName"
-	    value={firstName}
-	    onChange={handleOnChange}
-	    returnKeyType="next"
-	    onSubmitEditing={() => inputRefLastName.current.focus()}
+      id="firstName"
+      value={firstName}
+      onChange={handleOnChange}
+      returnKeyType="next"
+      onSubmitEditing={() => inputRefLastName.current.focus()}
     />
     <TextInput
-	    id="lastName"
-	    ref={inputRefLastName}
-		value={name}
-	    onChange={closeKeyboard}
-	    returnKeyType="done"
-	    onSubmitEditing={closeKeyboard}
+      id="lastName"
+      ref={inputRefLastName}
+    value={name}
+      onChange={closeKeyboard}
+      returnKeyType="done"
+      onSubmitEditing={closeKeyboard}
     />
 
 *Result:*
