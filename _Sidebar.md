@@ -1,1 +1,1 @@
-![nata.house](./assets/nh-logo-white-text-4x.png "nata.house")
+![nata.house](./assets/nh-dark.png "nata.house")
