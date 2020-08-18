@@ -93,6 +93,9 @@ The values that can be used are:
 
 ## Optimization
 
+`Before run into the optimization rabbit role in your applications:`
+> Measure. Don’t tune for speed until you’ve measured, and even then don’t unless one part of the code overwhelms the rest. - [Rob Pyke, 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
+
 ### Images
 
 Allways try to use the smallest possible image size. The larger the file, the longer they will take to transfer and display on the screen. Use image resizing software to compress the image. Remember to find a good balance between the quality and size of the photo.
