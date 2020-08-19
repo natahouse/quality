@@ -98,9 +98,9 @@ The values that can be used are:
 
 ### Images
 
-Allways try to use the smallest possible image size. The larger the file, the longer they will take to transfer and display on the screen. Use image resizing software to compress the image. Remember to find a good balance between the quality and size of the photo.
+Always try to use the smallest possible image size. The larger the file, the longer it will take to transfer and display on the screen. Use image resizing software to compress the image. Remember to find a good balance between the quality and size of the photo.
 
-`Note: some image pickers has the built-in option to apply some compress or resize to the image.`
+`Note: some image pickers have the built-in option to apply some compress or resize to the image.`
 
 #### Image size and suffixes
 
@@ -137,8 +137,8 @@ When loading asssets from the JavaScript bundle, React Native first imports the 
 
 ![React Native architecture](./assets/mobile-development/rn-architecture.jpeg)
 
-So, depending on where your image is being used, and how often it is required by your application (like an icon), place it inside the native module would improve the UI loading.
+So, depending on where your image is being used, and how often it is required by your application (like an icon), placing it inside the native module would improve the UI loading.
 
-To see how to use both aproches you can take a look at the [official documentation](https://reactnative.dev/docs/images#static-image-resources).
+To see how to use both approaches you can take a look at the [official documentation](https://reactnative.dev/docs/images#static-image-resources).
 
 *@CONTRIBUTE Please teach me the ways of RN, master...*
